@@ -17,7 +17,6 @@ acumulador = 0
 
 for i in range(1,n_files-1):
     num_act = ""
-    print(lines[i])
     for j in range(1,n_cols):
         if lines[i][j].isdigit():
             num_act += lines[i][j]
@@ -41,7 +40,6 @@ gears = dict()
 
 for i in range(1,n_files-1):
     num_act = ""
-    print(lines[i])
     for j in range(1,n_cols):
         if lines[i][j].isdigit():
             num_act += lines[i][j]
